@@ -11,7 +11,7 @@ public class Users {
 	private String Usweixin;		//微信
 	private String Usyouxiangadd;	//邮箱
 	private String Usqq;			//qq
-	private String Usdiy;			//个性语言
+	private String Usdiy;	
 	public String getUsno() {
 		return Usno;
 	}
@@ -78,5 +78,12 @@ public class Users {
 	public void setUsdiy(String usdiy) {
 		Usdiy = usdiy;
 	}
+	 public String toString(){
+	        
+	        return "学号:"+Usno+"\n"+" 姓名:"+Usname+"\n"+" 职位:"+Uspost+"\n"+" 班级:"+Ucname+"\n"+
+	         " 地址:"+Usaddress+"\n"+" 电话:"+Ustele+"\n"+" 微信:"+Usweixin+"\n"+" QQ:"+Usqq+"\n"+" 邮箱:"+Usyouxiangadd+"\n";
+	        
+	    }
+
 	
 }

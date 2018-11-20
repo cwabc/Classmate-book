@@ -33,7 +33,7 @@ public class banzhang extends JFrame{
 		Container container = getContentPane();
 		container.setLayout(null);
 		JButton bSelect=new JButton("修改或查询");
-		bSelect.setBounds(30, 30, 200, 50)
+		bSelect.setBounds(30, 30, 200, 50);
 		bSelect.addActionListener(new ActionListener() {        // 监听器，用于监听点击事件
 	           @Override
 	           public void actionPerformed(ActionEvent e) {
